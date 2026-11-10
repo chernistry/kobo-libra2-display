@@ -1,0 +1,11 @@
+# Python venv (28 MB, rebuilt by provision.sh step 1)
+.venv/
+__pycache__/
+*.pyc
+
+# runtime state: pid, logs, VNC note, remembered --mac-ip
+.run/
+
+# conf backups written on-device by kobo-power-config.py never land here, but
+# guard against a stray local copy during testing
+*.conf.bak-*

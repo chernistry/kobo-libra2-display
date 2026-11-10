@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.kobo-screen</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/PATH/TO/kobo-display/.venv/bin/python3</string>
+        <string>/PATH/TO/kobo-display/screen-server.py</string>
+        <string>--bind</string>
+        <string>192.0.2.10</string>
+        <string>--display</string>
+        <string>4</string>
+        <string>--port</string>
+        <string>8090</string>
+        <string>--fps</string>
+        <string>4</string>
+        <string>--rotate</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>StandardOutPath</key>
+    <string>/tmp/kobo-screen.log</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/kobo-screen.err</string>
+</dict>
+</plist>
