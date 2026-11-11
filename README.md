@@ -1,4 +1,4 @@
-# Kobo Libra 2 as a second display for a Mac
+# Kobo Libra 2 as an e-ink display for a Mac terminal
 
 ## What it does
 

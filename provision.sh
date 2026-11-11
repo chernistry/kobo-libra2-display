@@ -1,5 +1,5 @@
 #!/bin/bash
-# provision.sh — Kobo Libra 2 as a Mac secondary display, 0 → 1 in one command.
+# provision.sh — Kobo Libra 2 as an e-ink display for a Mac terminal, 0 → 1 in one command.
 #
 #   ./provision.sh                   Mac side, then Kobo side if /Volumes/KOBOeReader is mounted
 #   ./provision.sh --kobo            Kobo side only (device mounted over USB, "Connect" tapped)
