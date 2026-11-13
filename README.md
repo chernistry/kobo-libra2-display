@@ -1,3 +1,9 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chernistry/kobo-libra2-display/main/assets/brand/header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chernistry/kobo-libra2-display/main/assets/brand/header-light.svg">
+  <img alt="kobo-libra2-display: Kobo Libra 2 as an e-ink display for a Mac terminal: a capture server on the Mac, an FBInk loop on the Kobo." src="https://raw.githubusercontent.com/chernistry/kobo-libra2-display/main/assets/brand/header-light.svg">
+</picture>
+
 # Kobo Libra 2 as an e-ink display for a Mac terminal
 
 ## What it does
